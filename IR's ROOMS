@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IR Rooms - House for Rent</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f3f4f6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #10b981;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 1rem;
+    }
+    .house-card {
+      background: white;
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .house-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .house-info {
+      margin-top: 0.5rem;
+    }
+    .price {
+      color: #059669;
+      font-weight: bold;
+    }
+    .button {
+      display: inline-block;
+      background: #10b981;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🏠 IR Rooms - House for Rent</h1>
+  </header>
+  <div class="container">
+    <div class="house-card">
+      <img src="https://source.unsplash.com/800x400/?house,chennai" alt="2BHK Chennai" />
+      <div class="house-info">
+        <h2>2BHK in Anna Nagar, Chennai</h2>
+        <p class="price">₹12,000/month</p>
+        <p>Spacious flat with balcony and parking</p>
+        <a href="https://wa.me/919123456789" class="button">Contact Owner</a>
+      </div>
+    </div>
+    <div class="house-card">
+      <img src="https://source.unsplash.com/800x400/?apartment,bangalore" alt="1RK Bangalore" />
+      <div class="house-info">
+        <h2>1RK in BTM Layout, Bangalore</h2>
+        <p class="price">₹8,500/month</p>
+        <p>Single room with attached bathroom, near bus stop</p>
+        <a href="https://wa.me/917806821759" class="button">Contact Owner</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
